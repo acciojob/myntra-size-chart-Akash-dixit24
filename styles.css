@@ -1,2 +1,56 @@
 
 /* Your CSS Code here. */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 40px;
+}
+
+.size-chart-container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+
+.size-chart {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-size: 16px;
+}
+
+.size-chart thead {
+  background-color: #f2f2f2;
+}
+
+.size-chart th,
+.size-chart td {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+.size-chart th {
+  color: #333;
+  font-weight: 600;
+  background-color: #f7f7f7;
+}
+
+.size-chart tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+.size-chart tbody tr:hover {
+  background-color: #f0f0f0;
+}
